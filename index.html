@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UPI Payment</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #0f9d58, #34a853);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+    }
+    .pay-button {
+      background-color: white;
+      color: #0f9d58;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: 0.3s ease;
+    }
+    .pay-button:hover {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pay with Google Pay / PhonePe / UPI</h1>
+  <p>Amount: ₹99.00</p>
+
+  <a href="upi://pay?pa=rifaiaaqib077-2@oksbi&pn=Rifai%20Foods&am=99&cu=INR">
+    <button class="pay-button">Pay Now with GPay</button>
+  </a>
+
+</body>
+</html>
